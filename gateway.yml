@@ -21,7 +21,7 @@ spring:
 
 info:
   app:
-    name: &{spring.application.name}
+    name: ${spring.application.name}
 
 eureka:
   client:
