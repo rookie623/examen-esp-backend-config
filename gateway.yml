@@ -19,10 +19,6 @@ spring:
           predicates:
             - Path= /api/v1/catalog/**
 
-info:
-  app:
-    name: &{spring.application.name}
-
 eureka:
   client:
   registerWithEureka: false
